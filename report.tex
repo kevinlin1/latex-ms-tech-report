@@ -1,0 +1,23 @@
+\documentclass{tech-report}
+\usepackage{blindtext}
+
+\title{A UC Berkeley MS Technical Report}
+\author{You!}
+\newcommand*{\researchadvisor}{Your research advisor}
+\newcommand*{\secondreader}{Your second reader}
+
+\bibliography{bibliography}
+
+\begin{document}
+
+\include{src/title}
+\include{src/abstract}
+\tableofcontents
+
+\include{src/introduction}
+
+% Bibliography
+\bookmarksetup{startatroot}
+\printbibliography[heading=bibintoc]
+
+\end{document}
