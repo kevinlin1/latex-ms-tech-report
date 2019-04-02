@@ -2,9 +2,8 @@
 \ProvidesClass{tech-report}[2019/03/30 tech-report class]
 \RequirePackage[utf8]{inputenc}
 
+\PassOptionsToPackage{paper=letter}{typearea}
 \LoadClass{scrreprt}
-\KOMAoptions{paper=letter}
-\recalctypearea
 
 % Fonts & colours
 \RequirePackage[T1]{fontenc}
