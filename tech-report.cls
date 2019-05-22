@@ -15,6 +15,7 @@
 \definecolor{BerkeleyBlue}{rgb}{0, 0.125, 0.25}
 
 % Hyperlinks
+\RequirePackage[hyphens]{url}
 \RequirePackage[%
   colorlinks = true,
   citecolor  = BerkeleyBlue,
