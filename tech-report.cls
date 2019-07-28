@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{tech-report}[2019/03/30 tech-report class]
+\ProvidesClass{tech-report}[2019/07/28 tech-report class]
 \RequirePackage[utf8]{inputenc}
 
 \PassOptionsToPackage{paper=letter}{typearea}
@@ -148,10 +148,3 @@
 \renewcommand*\bibnamedelima{\addnbthinspace}
 \renewcommand*\bibnamedelimb{\addnbthinspace}
 \renewcommand*\bibnamedelimi{\addnbthinspace}
-
-% Make the font size of citations and bibliography smaller
-\renewcommand*{\citesetup}{%
-  \biburlsetup
-  \small
-}
-\renewcommand*{\bibfont}{\small}
