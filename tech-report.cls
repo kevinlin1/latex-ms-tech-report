@@ -13,6 +13,14 @@
 \RequirePackage{microtype}
 \RequirePackage[usenames, dvipsnames]{xcolor}
 \definecolor{BerkeleyBlue}{rgb}{0, 0.125, 0.25}
+% Use sans-serif for all bold fonts
+\makeatletter
+\DeclareRobustCommand\bfseries{%
+  \not@math@alphabet\bfseries\mathbfsf
+  \fontfamily\sfdefault\fontseries\bfdefault\selectfont
+}
+\DeclareMathAlphabet{\mathbfsf}{OT1}{\sfdefault}{\bfdefault}{n}
+\makeatother
 
 % Hyperlinks
 \RequirePackage[hyphens]{url}
